@@ -1401,3 +1401,44 @@ body {
 .cid-rnReMmYXja {
   background-image: url("../../../assets/images/img-425-2000x3000.jpg");
 }
+.cid-rnReMmYXja .mbr-text,
+.cid-rnReMmYXja .mbr-section-btn {
+  text-align: center;
+}
+.cid-rpxq5GB1I0 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/4-1920x1080.jpg");
+}
+.cid-rpxq5GB1I0 .card-box {
+  padding: 1rem 2rem 2rem;
+}
+.cid-rpxq5GB1I0 h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-rpxq5GB1I0 p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.cid-rpxq5GB1I0 .mbr-section-btn {
+  padding-top: 2.5rem;
+}
+.cid-rpxq5GB1I0 .mbr-section-btn a {
+  margin: 0;
+}
+.cid-rpxq5GB1I0 .mbr-text {
+  color: #767676;
+}
+.cid-rpxq5GB1I0 .card-wrapper {
+  height: 100%;
+  background: #ffffff;
+}
+@media (max-width: 767px) {
+  .cid-rpxq5GB1I0 .card:not(.last-child) {
+    padding-bottom: 2rem;
+  }
+}
