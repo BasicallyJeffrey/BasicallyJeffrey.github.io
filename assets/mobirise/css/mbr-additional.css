@@ -1393,29 +1393,6 @@ body {
 .jq-selectbox:hover .jq-selectbox__trigger-arrow {
   border-top-color: #149dcc;
 }
-.cid-rpEMxfD6me {
-  background: #ffffff;
-}
-.cid-rpEMxfD6me .image-block {
-  margin: auto;
-  width: 100% !important;
-}
-.cid-rpEMxfD6me .mbr-figure {
-  margin: 0 auto;
-}
-.cid-rpEMxfD6me figcaption {
-  position: relative;
-}
-.cid-rpEMxfD6me figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-rpEMxfD6me .image-block {
-    width: 100% !important;
-  }
-}
-.cid-rpEMxfD6me .mbr-figure-caption div {
-  color: #c1c1c1;
+.cid-rpEV5ISVWq {
+  background-image: url("../../../assets/images/bfv-1920x1080.jpg");
 }
