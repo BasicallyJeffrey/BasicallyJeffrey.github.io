@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "BasicallyJeffrey",
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -26,20 +26,18 @@
         "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
-      },
-      "additionalSetColors": [
-        "#090808",
-        "#171515",
-        "#111111"
-      ]
+      }
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.7",
     "siteFonts": [],
-    "uniqCompNum": 14,
+    "uniqCompNum": 0,
     "versionPublish": "4.9.7",
     "favicon": "@PROJECT_PATH@/assets/images/hand-bw-128x72.png",
-    "noImageResize": ""
+    "noImageResize": "",
+    "siteUrl": "https://basicallyjeffrey.github.io/index.htm",
+    "sitemapSwitcherAuto": "on",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
@@ -72,11 +70,11 @@
           "_name": "header2",
           "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/hand-bw-2000x1123.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><br>Basically_Jeffrey</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Aspiring leader, saved by Grace and living 9802.752 miles away from home</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "rpKpYIAgj9",
+          "_anchor": "header2-0",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header2-0"
+          "_params": {}
         },
         {
           "alias": false,
@@ -104,11 +102,11 @@
           "_name": "header16",
           "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#111111\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">BTW</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Any idea of what it would feel like to travel through a blackhole? Welp, I've no clue but I'm confident that my gallery is as cool as it sounds!</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black\" href=\"page1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">GO YEEET BY PRESSING THIS BUTTON</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "rpKBllV5F1",
+          "_anchor": "header16-6",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header16-6"
+          "_params": {}
         }
       ]
     },
@@ -259,11 +257,11 @@
           "_name": "features15",
           "_customHTML": "<section class=\"features15\" group=\"Animated Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mbr-flip-card\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitles\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Block Titles\" name=\"showTitles\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <input type=\"color\" title=\"Card Back Color\" name=\"crdBckColor\" value=\"#efefef\"> \n        <select title=\"Animation\" name=\"animation\">\n            <option value=\"horizontal\" selected>Horizontal</option>\n            <option value=\"vertical\">Vertical</option>\n        </select>\n\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/water-2000x3000.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#111111\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">...eeeeetttt! You made it!</h2>\n        <h3 class=\"mbr-section-subtitle display-5 align-center mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Now flip them around to find some fun facts about them! FRET NOT BRETHREN!</h3>\n\n        <div class=\"media-container-row container pt-5 mt-2\" mbr-cards=\"bootstrap\">\n\n            <div class=\"col-12 col-md-6 mb-4\" mbr-class=\"{'col-lg-4': cardsAmount == '3','col-lg-3': cardsAmount == '4'}\">\n                <div class=\"card flip-card p-5 align-center\">\n                    <div class=\"card-front card_cont\">\n                        <img src=\"@PROJECT_PATH@/assets/images/img-1416-900x600.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card_back card_cont\">\n                        <h4 class=\"card-title display-5 py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\"The Recommended-to-read Book\"</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\">Imagine yourself sitting in the library (periodical room) during Spring Break and trying to figure out to how to pull up your grades but have no clue. Welp, there you go!</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-12 col-md-6 mb-4\" mbr-class=\"{'col-lg-4': cardsAmount == '3','col-lg-3': cardsAmount == '4'}\" mbr-if=\"cardsAmount > 1\">\n                \n                <div class=\"card flip-card p-5 align-center\">\n                    <div class=\"card-front card_cont\">\n                        <img src=\"@PROJECT_PATH@/assets/images/img-335-900x600.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card_back card_cont\">\n                        <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">&nbsp; &nbsp; &nbsp; &nbsp;\"Roll baby,roll!\" &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\">\n                            First Ignite event, drowning with assignments, a few tests coming up yet brought my trusty Canon (cuz Nikon sucks, JK) to the field and took a couple of shots. Rolling on a fine edge is thrilling! (Viewers discretion : DON'T DO THAT!)</p>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"col-12 col-md-6 mb-4\" mbr-class=\"{'col-lg-4': cardsAmount == '3','col-lg-3': cardsAmount == '4'}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card flip-card p-5 align-center\">\n                    <div class=\"card-front card_cont\">\n                        <img src=\"@PROJECT_PATH@/assets/images/woods-01-900x600.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card_back card_cont\">\n                        <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">Might Be A Jungle (or not)</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\">So I got lost in the middle of a forest, the END. (R.I.P Myself that day!)</p>\n                    </div>\n                </div> \n            </div>\n\n            <div class=\"col-12 col-md-6 mb-4\" mbr-class=\"{'col-lg-4': cardsAmount == '3','col-lg-3': cardsAmount == '4'}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card flip-card p-5 align-center\">\n                    <div class=\"card-front card_cont\">\n                        <img src=\"../_images/background4.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card_back card_cont\">\n                        <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                            Host Anywhere \n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Publish your website to a local drive, FTP or host on Amazon S3, Google Cloud, Github Pages. Don't be a hostage to just one platform or service provider.\n                        </p>\n                    </div>\n                </div> \n            </div>\n        </div>\n</div></section>",
           "_cid": "rpKDoHV6o2",
+          "_anchor": "features15-8",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features15-8"
+          "_params": {}
         },
         {
           "alias": false,
@@ -294,11 +292,11 @@
           "_name": "content10",
           "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#efefef\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#111111\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".section-text\" mbr-text>INDEED!<br><br> I will be updating it as I go through more photos that i've taken. Uh yup, they are all mine [ I <br><br>have all the rights and all that kinda fun stuff over them :) ] Hope to see you around!</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
           "_cid": "rpKMRWgHlh",
+          "_anchor": "content10-d",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content10-d"
+          "_params": {}
         }
       ]
     }
