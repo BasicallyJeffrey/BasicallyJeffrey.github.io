@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "BasicallyJeffrey",
-    "currentPage": "page1.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -35,7 +35,7 @@
     "versionPublish": "4.9.7",
     "favicon": "@PROJECT_PATH@/assets/images/hand-bw-128x72.png",
     "noImageResize": "",
-    "siteUrl": "https://basicallyjeffrey.github.io/index.htm",
+    "siteUrl": "",
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -112,7 +112,7 @@
         }
       ]
     },
-    "page1.html": {
+    "page2.html": {
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Gallery",
