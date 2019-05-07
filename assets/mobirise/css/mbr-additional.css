@@ -1514,3 +1514,27 @@ body {
 .cid-rpKDoHV6o2 P {
   color: #111111;
 }
+.cid-rpKMRWgHlh {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #111111;
+}
+.cid-rpKMRWgHlh .line {
+  background-color: #efefef;
+  color: #efefef;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rpKMRWgHlh .section-text {
+  padding: 2rem 0;
+  color: #efefef;
+}
+.cid-rpKMRWgHlh .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rpKMRWgHlh .inner-container {
+    width: 100% !important;
+  }
+}
