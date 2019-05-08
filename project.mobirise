@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "BasicallyJeffrey",
-    "currentPage": "index.html",
+    "currentPage": "3.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -39,14 +39,15 @@
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": ""
+    "robotsSwitcher": "",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
         "title": "Home",
-        "meta_descr": "",
+        "meta_descr": "Home Page",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -114,7 +115,7 @@
     },
     "2.html": {
       "settings": {
-        "meta_descr": "Web Site Creator Description",
+        "meta_descr": "Second page",
         "title": "Gallery",
         "order": 1
       },
@@ -301,6 +302,14 @@
           "_params": {}
         }
       ]
+    },
+    "3.html": {
+      "settings": {
+        "meta_descr": "Website Creator Description",
+        "title": "lh",
+        "order": 2
+      },
+      "components": []
     }
   }
 }
