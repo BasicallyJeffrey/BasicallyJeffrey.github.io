@@ -544,7 +544,7 @@
       "settings": {
         "meta_descr": "Second page",
         "title": "Gallery fun facts",
-        "order": 3
+        "order": 1
       },
       "components": [
         {
@@ -899,7 +899,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "About Me",
-        "order": 1
+        "order": 3
       },
       "components": [
         {
