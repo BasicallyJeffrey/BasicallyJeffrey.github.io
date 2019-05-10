@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "BasicallyJeffrey",
-    "currentPage": "index.html",
+    "currentPage": "2.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -728,7 +728,7 @@
         }
       ]
     },
-    "page3.html": {
+    "3.html": {
       "settings": {
         "meta_descr": "",
         "title": "Phone Wallpapers",
@@ -801,7 +801,7 @@
         }
       ]
     },
-    "page4.html": {
+    "4.html": {
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "About Me",
